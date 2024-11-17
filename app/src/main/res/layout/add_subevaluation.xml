@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/ll_sub_evaluation"
+        android:layout_width="275dp"
+        android:layout_height="248dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/et_sub_evaluation"
+            android:layout_width="179dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:hint="@string/sous_evaluation"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="134dp" />
+
+        <EditText
+            android:id="@+id/et_sub_evaluation_note"
+            android:layout_width="182dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="@string/note"
+            app:layout_constraintTop_toBottomOf="@id/et_sub_evaluation"
+            tools:layout_editor_absoluteX="134dp" />
+
+        <Button
+            android:id="@+id/btn_add_sub_evaluation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/ajouter"
+            app:layout_constraintTop_toBottomOf="@id/et_sub_evaluation_note"
+            tools:layout_editor_absoluteX="158dp" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

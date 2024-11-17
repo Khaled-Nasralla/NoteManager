@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">NoteManager</string>
+    <string name="add">+</string>
+    <string name="title_fragment1">Class</string>
+    <string name="title_fragment2">Etudiants</string>
+    <string name="title_fragment3">Cours</string>
+    <string name="title_fragment4">Evaluation</string>
+    <string name="todo">TODO</string>
+    <string name="add_cours">Ajouter un cours</string>
+    <string name="add_code">Credit</string>
+    <string name="add_evaluation">Ajouter une evaluation</string>
+    <string name="student_name">Nom de l\'etudiant</string>
+    <string name="surname">Prenom de l\'etudiant</string>
+    <string name="student_code">Code de l\'etudiant</string>
+    <string name="evaluation_title">Titre de l\'evaluation</string>
+    <string name="evaluation_date">Date de l\'evaluation</string>
+    <string name="submit">Sauvgarder</string>
+    <string name="back_arrow_icon">Back Arrow Icon</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_student">+</string>
+    <string name="ajouter">Ajouter</string>
+    <string name="add_cour">Ajouter un cour</string>
+    <string name="sous_evaluation">Sous Evaluation</string>
+    <string name="note" >Note</string>
+</resources>
